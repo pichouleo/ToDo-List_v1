@@ -142,3 +142,24 @@
     background: #226D68;
     color: #FEEAA1;
   }
+
+  @media (max-width:650px){
+    .filter-todo{
+      display: none;
+    }
+    .todo-input{
+      width: 70%;
+      margin-left: 8%;
+    }
+    form{
+      margin: auto;
+    }
+    .todo{
+      width: 100%;
+      margin-left: -1%;
+    }
+    ul{
+      width: 70%;
+      margin: auto;
+    }
+  }
